@@ -1,48 +1,56 @@
-PolicyPulse – Policy Simulation & Citizen Feedback Platform
+# 🚀 PolicyPulse – Policy Simulation & Citizen Feedback Platform
 
-PolicyPulse is a full-stack policy-tech platform designed to simulate public reactions to government policies before implementation. It enables citizens to provide feedback, vote on policies, and share concerns while providing administrators with insights and analytics.
+PolicyPulse is a **full-stack policy-tech platform** designed to simulate public responses to government policies before their implementation. The platform enables citizens to share feedback, vote on policies, and raise concerns while providing administrators with valuable insights and analytics.
 
-The platform helps decision-makers analyze public sentiment, predict outcomes, and make data-driven policy improvements.
+The goal of PolicyPulse is to help policymakers **analyze public sentiment, understand citizen perspectives, and make data-driven decisions**.
 
-🚀 Key Features
+---
 
-Policy Simulation Engine – Simulate policy outcomes using parameter-driven inputs.
+## ✨ Key Features
 
-Citizen Feedback System – Citizens can vote, comment, and submit complaints about policies.
+- **Policy Simulation Engine**  
+  Allows simulation of policies using parameter-driven inputs to analyze possible outcomes.
 
-Role-Based Authentication – Secure login system with JWT authentication for Citizen and Admin roles.
+- **Citizen Feedback System**  
+  Citizens can vote, comment, and submit complaints regarding government policies.
 
-Admin Dashboard – Provides analytics, insights, and monitoring of policy responses.
+- **Role-Based Authentication**  
+  Secure login system using **JWT authentication** for both **Citizen and Admin roles**.
 
-Interactive Data Visualization – Visual representation of public responses to policies.
+- **Admin Dashboard**  
+  Provides analytics, policy insights, and monitoring tools for administrators.
 
-Secure Backend APIs – Built with authentication, protected routes, and data validation.
+- **Interactive Data Visualization**  
+  Displays policy responses and engagement data using visual charts.
 
-🛠️ Tech Stack
+- **Secure Backend APIs**  
+  Built with authentication, protected routes, and secure data handling.
 
-Frontend
+---
 
-React.js
+## 🛠️ Tech Stack
 
-HTML5 / CSS3
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
 
-JavaScript
+### Backend
+- Node.js
+- Express.js
 
-Backend
+### Database
+- MongoDB
 
-Node.js
+### Authentication
+- JSON Web Token (JWT)
 
-Express.js
+---
 
-Database
+## 📂 Project Structure
 
-MongoDB
-
-Authentication
-
-JSON Web Token (JWT)
-
-📂 Project Structure
+```
 policypulse-ai/
 │
 ├── backend/
@@ -57,58 +65,87 @@ policypulse-ai/
 │   └── src/
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/An32006shi/policypulse-ai.git
 cd policypulse-ai
-2️⃣ Backend Setup
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
 cd backend
 npm install
+```
 
-Create a .env file
+Create a **.env** file inside the backend folder:
 
+```
 MONGODB_URI=mongodb://127.0.0.1:27017/policypulse_ai
 JWT_SECRET=secret
 PORT=5000
+```
 
-Run backend server
+Run the backend server:
 
+```bash
 npm start
-3️⃣ Frontend Setup
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-Frontend runs on
+Frontend runs on:
 
+```
 http://localhost:3000
+```
 
-Backend runs on
+Backend runs on:
 
+```
 http://localhost:5000
-📊 Example Use Case
+```
 
-Admin creates a new government policy.
+---
 
-Citizens view the policy and provide feedback.
+## 📊 Example Workflow
 
-Users vote and comment on policy decisions.
+1. Admin creates or uploads a government policy.
+2. Citizens can view the policy details.
+3. Users provide feedback through voting and comments.
+4. Admin dashboard aggregates responses and shows analytics.
 
-Admin dashboard aggregates responses and analytics.
+---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Anshika Gupta
+**Anshika Gupta**
 
-GitHub:
+GitHub:  
 https://github.com/An32006shi
 
-⭐ Future Improvements
+---
 
-AI-based sentiment analysis of citizen feedback
+## ⭐ Future Improvements
 
-Policy outcome prediction models
-
-Advanced analytics dashboard
-
-Deployment with Docker and cloud infrastructure
+- AI-based sentiment analysis for citizen feedback  
+- Policy impact prediction using machine learning  
+- Advanced analytics dashboard  
+- Cloud deployment with Docker and CI/CD
